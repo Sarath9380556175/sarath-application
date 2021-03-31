@@ -19,7 +19,7 @@ exports.payments = (req, res) => {
         params['ORDER_ID'] = uuidv4(),
         params['CUST_ID'] = process.env.PAYTM_CUST_ID,
         params['TXN_AMOUNT'] = totalAmount,
-        params['CALLBACK_URL'] = 'https://infinite-sea-51054.herokuapp.com/callback',
+        params['CALLBACK_URL'] = 'https://mysterious-reaches-60926.herokuapp.com/callback',
         params['EMAIL'] = email,
         params['MOBILE_NO'] = process.env.MOBILE_NUMBER
 
